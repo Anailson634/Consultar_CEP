@@ -1,6 +1,6 @@
 # Como usar?
 
-Escolhe um CEP, que seja verdadeiro, coloquio no campo de input
+Abra a aplicação, escolhe um CEP, que seja verdadeiro, coloquio no campo de input, Click no botão pesquisar
 
 # Detalhes
 Bom, o app, foi disenvolvido por mim Anailson, se tiver interese de comprar, mande-me um email para anonymoushack838@gmail.com,
