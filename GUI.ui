@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Covid_19</class>
+ <widget class="QMainWindow" name="Covid_19">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>562</width>
+    <height>297</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CEP</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #363636; color: #c71d22;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="Cep">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>20</y>
+      <width>271</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: red; background: #3a5990; border-radius: 10px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>70</y>
+      <width>91</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #3a5990; border-radius: 10px;</string>
+    </property>
+    <property name="text">
+     <string>Pesquisar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CEP">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>136</y>
+      <width>281</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CEP: ??</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lgd">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>166</y>
+      <width>281</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Logradura: ??</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cpl">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>196</y>
+      <width>281</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Complemento: ??</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="uf">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>166</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bairro: ??</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bairro">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>226</y>
+      <width>281</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Localidade: ??</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ddd">
+    <property name="geometry">
+     <rect>
+      <x>319</x>
+      <y>226</y>
+      <width>241</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>uf: ??</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ibge">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>196</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ibge: ??</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gia">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>256</y>
+      <width>281</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gia: ??</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="local">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>136</y>
+      <width>231</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DDD: ??</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Help">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>0</y>
+      <width>91</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ajuda</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
